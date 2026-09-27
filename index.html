@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of W.G.M.H. Ekanayaka — Computer Science Undergraduate and Software Developer.">
+  <title>Hansani Ekanayaka | Computer Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid-bg"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">H<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-text reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>W.G.M.H.<br><span>EKANAYAKA</span></h1>
+        <h2>Computer Science Undergraduate <span class="cyan">&amp;</span> Software Developer</h2>
+
+        <p class="hero-description">
+          Building practical digital solutions through software engineering,
+          problem-solving, and continuous learning.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Get In Touch</a>
+        </div>
+
+        <div class="quick-facts">
+          <div><strong>CS</strong><span>UNDERGRADUATE</span></div>
+          <div><strong>02+</strong><span>MAJOR PROJECTS</span></div>
+          <div><strong>01</strong><span>RESEARCH AREA</span></div>
+          <div><strong>AWS</strong><span>CREDENTIALS</span></div>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <!-- Put your portrait at: images/profile.jpg -->
+        <img src="images/profile.jpg" alt="Portrait of Hansani Ekanayaka"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder">
+          <span>YOUR PHOTO</span>
+          <small>images/profile.jpg</small>
+        </div>
+        <div class="photo-frame"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-intro reveal">
+          <p class="large-text">
+            I am a Computer Science undergraduate at the University of Sri Jayewardenepura
+            with a strong interest in software development and modern computing technologies.
+          </p>
+        </div>
+
+        <div class="about-copy reveal">
+          <p>
+            My academic journey has given me a foundation in software engineering,
+            algorithms, databases, machine learning, computer security, and modern
+            development practices. I enjoy breaking down complex problems and turning
+            them into practical, maintainable solutions.
+          </p>
+          <p>
+            Through university projects, research activities, and hands-on development,
+            I have gained experience across full-stack development, database systems,
+            DevOps, and artificial intelligence. I am continuously expanding my
+            technical knowledge and looking for opportunities to apply it to meaningful
+            real-world problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <span>02</span>
+        <h2>Education</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2024 — PRESENT</p>
+          <h3>University of Sri Jayewardenepura</h3>
+          <h4>BSc Honours in Computer Science</h4>
+          <p>
+            Relevant areas: Software Engineering, Machine Learning, Computer Security,
+            Database Systems, Data Structures, Theory of Computation, Visual Computing,
+            and Research.
+          </p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">GRADES 12 — 13</p>
+          <h3>Holy Family Convent, Kurunegala</h3>
+          <h4>G.C.E. Advanced Level</h4>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">GRADES 1 — 11</p>
+          <h3>President Girls' College, Kurunegala</h3>
+          <h4>Primary &amp; Secondary Education</h4>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <span>03</span>
+        <h2>Technical Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <p class="skill-label">PROGRAMMING LANGUAGES</p>
+          <div class="tags">
+            <span>Java</span><span>Python</span><span>C</span><span>JavaScript</span><span>R</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-label">WEB DEVELOPMENT</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-label">FRAMEWORKS &amp; TECHNOLOGIES</p>
+          <div class="tags">
+            <span>Spring Boot</span><span>React</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-label">DATABASES</p>
+          <div class="tags">
+            <span>MySQL</span><span>MariaDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-label">DEVELOPMENT &amp; DEVOPS</p>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>Jenkins</span><span>SonarQube</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-label">CLOUD</p>
+          <div class="tags">
+            <span>AWS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <span>04</span>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <!-- Put your HomeFixr screenshot at: images/homefixr.png -->
+          <img src="images/homefixr.png" alt="HomeFixr project screenshot"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="image-placeholder">
+            <span>HOMEFIXR SCREENSHOT</span>
+            <small>images/homefixr.png</small>
+          </div>
+          <div class="project-number">01</div>
+        </div>
+
+        <div class="project-content">
+          <p class="project-type">FULL-STACK WEB APPLICATION</p>
+          <h3>HomeFixr</h3>
+          <h4>Home Service Booking Platform</h4>
+          <p>
+            A full-stack web platform designed to connect customers with service
+            providers and manage home-service bookings.
+          </p>
+
+          <div class="project-tags">
+            <span>Java</span><span>Spring Boot</span><span>React</span>
+            <span>MariaDB</span><span>Docker</span><span>Jenkins</span>
+            <span>Git</span><span>SonarQube</span>
+          </div>
+
+          <div class="contribution">
+            <strong>MY CONTRIBUTIONS</strong>
+            <ul>
+              <li>Frontend and backend integration</li>
+              <li>Database integration and development</li>
+              <li>Docker containerization</li>
+              <li>Jenkins CI/CD pipeline</li>
+              <li>SonarQube code-quality analysis</li>
+            </ul>
+          </div>
+
+          <a class="text-link" href="https://github.com/Hansani03" target="_blank" rel="noopener">
+            View GitHub <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card reverse reveal">
+        <div class="project-image">
+          <!-- Put your Farmhouse screenshot at: images/farmhouse.png -->
+          <img src="images/farmhouse.png" alt="Farmhouse Management System screenshot"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="image-placeholder">
+            <span>FARMHOUSE SCREENSHOT</span>
+            <small>images/farmhouse.png</small>
+          </div>
+          <div class="project-number">02</div>
+        </div>
+
+        <div class="project-content">
+          <p class="project-type">DATABASE MANAGEMENT SYSTEM</p>
+          <h3>Farmhouse Management System</h3>
+          <h4>Database-Driven Management Application</h4>
+          <p>
+            A database-driven Farmhouse Management System designed and developed
+            from the ground up as part of a Database Management Systems project.
+          </p>
+
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span>
+          </div>
+
+          <div class="contribution">
+            <strong>PROJECT SCOPE</strong>
+            <ul>
+              <li>ER and EER diagram design</li>
+              <li>Relational schema design</li>
+              <li>HTML/CSS frontend development</li>
+              <li>PHP application logic</li>
+              <li>MySQL database implementation</li>
+            </ul>
+          </div>
+
+          <div class="project-links">
+            <!-- Replace # with your actual LinkedIn post URLs if desired -->
+            <a class="text-link" href="https://lnkd.in/p/g-6wBE8r" target="_blank" rel="noopener">LinkedIn Post 01 ↗</a>
+            <a class="text-link" href="https://lnkd.in/p/gPtDE_ma" target="_blank" rel="noopener">LinkedIn Post 02 ↗</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research">
+      <div class="section-heading reveal">
+        <span>05</span>
+        <h2>Research</h2>
+      </div>
+
+      <div class="research-feature reveal">
+        <div class="research-main">
+          <p class="project-type">RESEARCH PROJECT</p>
+          <h3>Evaluating Trustworthiness Factors in AI-Assisted Legacy Software Modernization</h3>
+          <p>
+            Research exploring the factors that influence trust in AI-assisted legacy
+            software modernization, focusing on correctness, reliability,
+            maintainability, and explainability.
+          </p>
+
+          <div class="research-factors">
+            <span>Correctness</span>
+            <span>Reliability</span>
+            <span>Maintainability</span>
+            <span>Explainability</span>
+          </div>
+        </div>
+
+        <div class="trust-diagram">
+          <div class="factor">CORRECTNESS</div>
+          <div class="factor">RELIABILITY</div>
+          <div class="trust-center">TRUST<br>WORTHINESS</div>
+          <div class="factor">MAINTAINABILITY</div>
+          <div class="factor">EXPLAINABILITY</div>
+        </div>
+      </div>
+
+      <div class="research-paper reveal">
+        <div>
+          <p class="project-type">CONFERENCE PAPER CONTRIBUTION</p>
+          <h3>A Co-Evolutionary Genetic Algorithm Library for Feature Selection in High-Dimensional Data</h3>
+          <p>
+            Contributed as part of a research group working on a conference paper
+            investigating a co-evolutionary genetic algorithm approach for feature
+            selection in high-dimensional data.
+          </p>
+        </div>
+        <div class="paper-status">
+          <span>STATUS</span>
+          <strong>SUBMITTED</strong>
+          <small>SLAAI Conference</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWS -->
+    <section class="section" id="certifications">
+      <div class="section-heading reveal">
+        <span>06</span>
+        <h2>Credentials</h2>
+      </div>
+
+      <div class="credentials-grid">
+        <a class="credential-card reveal" href="https://www.credly.com/badges/0105e1b5-4b4f-4d19-8754-650c8b529cc9/public_url" target="_blank" rel="noopener">
+          <span class="credential-icon">AWS</span>
+          <div>
+            <p>AMAZON WEB SERVICES</p>
+            <h3>View AWS Credential</h3>
+            <span>Verified on Credly ↗</span>
+          </div>
+        </a>
+
+        <a class="credential-card reveal" href="https://www.credly.com/badges/7251252a-a02d-4281-84d6-0f043f93add6/public_url" target="_blank" rel="noopener">
+          <span class="credential-icon">AWS</span>
+          <div>
+            <p>AMAZON WEB SERVICES</p>
+            <h3>View AWS Credential</h3>
+            <span>Verified on Credly ↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- INDUSTRY EXPOSURE -->
+    <section class="section" id="experience">
+      <div class="section-heading reveal">
+        <span>07</span>
+        <h2>Industry Exposure</h2>
+      </div>
+
+      <div class="visit-grid">
+        <article class="visit-card reveal">
+          <div class="visit-image">
+            <!-- Put LSEG visit photo at: images/lseg-visit.jpg -->
+            <img src="images/lseg-visit.jpg" alt="LSEG industry visit"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="image-placeholder">
+              <span>LSEG VISIT</span>
+              <small>images/lseg-visit.jpg</small>
+            </div>
+          </div>
+          <div class="visit-content">
+            <p class="timeline-date">MAY 08, 2026</p>
+            <h3>Odyssey Industry Visit — LSEG</h3>
+            <p>
+              Participated in the Odyssey Industry Visit Series — Season 3 visit
+              to LSEG, gaining exposure to industry practices and insights from
+              technology professionals.
+            </p>
+          </div>
+        </article>
+
+        <article class="visit-card reveal">
+          <div class="visit-image">
+            <!-- Put Codimite visit photo at: images/codimite-visit.jpg -->
+            <img src="images/codimite-visit.jpg" alt="Codimite industry visit"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="image-placeholder">
+              <span>CODIMITE VISIT</span>
+              <small>images/codimite-visit.jpg</small>
+            </div>
+          </div>
+          <div class="visit-content">
+            <p class="timeline-date">MAY 22, 2026</p>
+            <h3>Odyssey Industry Visit — Codimite</h3>
+            <p>
+              Participated in the second Odyssey Industry Visit Series — Season 3
+              visit to Codimite, gaining further exposure to professional software
+              engineering environments and industry practices.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CURRENTLY EXPLORING -->
+    <section class="section exploring">
+      <div class="section-heading reveal">
+        <span>08</span>
+        <h2>Currently Exploring</h2>
+      </div>
+
+      <div class="exploring-grid">
+        <div class="explore-card reveal">
+          <span>01</span>
+          <h3>AI-Assisted Software Development</h3>
+          <p>Exploring the use of AI in software engineering and legacy system modernization.</p>
+        </div>
+        <div class="explore-card reveal">
+          <span>02</span>
+          <h3>Software Engineering</h3>
+          <p>Deepening knowledge of scalable, maintainable, and reliable software systems.</p>
+        </div>
+        <div class="explore-card reveal">
+          <span>03</span>
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Building practical experience with cloud platforms, automation, and modern deployment workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity,<br><span>project, or idea?</span></h2>
+        <p>I'm always interested in meaningful opportunities to learn, build, and collaborate.</p>
+
+        <a class="btn primary big" href="mailto:manoshahekanayaka@gmail.com">
+          Email Me <span>↗</span>
+        </a>
+
+        <div class="social-links">
+          <a href="https://github.com/Hansani03" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/hansani-ekanayaka" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:manoshahekanayaka@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 W.G.M.H. Ekanayaka</span>
+    <span>Built with HTML, CSS &amp; JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
