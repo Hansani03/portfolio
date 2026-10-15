@@ -881,3 +881,40 @@ footer {
     flex-direction: column;
   }
 }
+
+/* AWS credential badge images */
+.credential-badge {
+  width: 110px;
+  height: 125px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.credential-details {
+  min-width: 0;
+}
+
+.credential-details h3 {
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+}
+
+.credential-card {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .credentials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .credential-card {
+    gap: 14px;
+    padding: 16px;
+  }
+
+  .credential-badge {
+    width: 85px;
+    height: 105px;
+  }
+}
